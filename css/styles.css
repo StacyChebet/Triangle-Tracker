@@ -22,8 +22,14 @@ body {
   color: dimgray;
 }
 .button {
-  background-color: turquoise;
+  background-color: royalblue;
   height: 70px;
   width: 100px;
   text-align: center;
+  color: white
+}
+.directions {
+  font-size: 40px;
+  color: white;
+  background-color: royalblue;
 }
