@@ -1,0 +1,29 @@
+body {
+  background-image: url(/home/stacy/Documents/triangle-tracker/images/bg5.jpg);
+  background-size: cover;
+}
+.heading {
+  font-size: 100px;
+  text-align: center;
+  font-weight: bolder;
+  color: dimgray;
+}
+.intro {
+  font-size: 60px;
+  text-align:
+}
+.input {
+  font-size: 30px;
+  text-align: center;
+}
+.description {
+  font-size: 40px;
+  text-align: center;
+  color: dimgray;
+}
+.button {
+  background-color: turquoise;
+  height: 70px;
+  width: 100px;
+  text-align: center;
+}
