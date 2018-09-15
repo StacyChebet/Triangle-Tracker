@@ -5,7 +5,7 @@ function triangle() {
 
     if (XY===XZ && XY===YZ) {
       document.write("Equilateral triangle");
-    } else if {
-      
-    }
+    }else if (XY===YZ && XY!==XZ||XY===XZ && XY!==YZ||XZ===YZ && XZ!=XY) {
+      document.write("Isosceles triangle");
+  
 }
