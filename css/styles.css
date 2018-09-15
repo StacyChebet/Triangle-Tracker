@@ -22,7 +22,7 @@ body {
   color: dimgray;
 }
 .button {
-  background-color: royalblue;
+  background-color: mistyrose;
   height: 70px;
   width: 100px;
   text-align: center;
@@ -31,7 +31,7 @@ body {
 .directions {
   font-size: 40px;
   color: white;
-  background-color: royalblue;
+  background-color: mistyrose;
 }
 .margins {
   margin-left: 10%;
