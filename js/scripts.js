@@ -7,5 +7,7 @@ function triangle() {
       document.write("Equilateral triangle");
     }else if (XY===YZ && XY!==XZ||XY===XZ && XY!==YZ||XZ===YZ && XZ!=XY) {
       document.write("Isosceles triangle");
+    }else if (XY!==YZ && XY!==XZ) {
+      document.write("Scalene triangle");
   
 }
