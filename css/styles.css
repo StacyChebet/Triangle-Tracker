@@ -26,14 +26,23 @@ body {
   height: 70px;
   width: 100px;
   text-align: center;
-  color: white
+  color: black;
 }
 .directions {
   font-size: 40px;
-  color: white;
+  color: black;
   background-color: mistyrose;
 }
 .margins {
   margin-left: 10%;
   margin-right: 10%;
+}
+#XY {
+  background-color: mistyrose;
+}
+#XZ {
+  background-color: mistyrose;
+}
+#YZ {
+  background-color: mistyrose;
 }
