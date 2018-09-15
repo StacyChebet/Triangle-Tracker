@@ -9,5 +9,7 @@ function triangle() {
       document.write("Isosceles triangle");
     }else if (XY!==YZ && XY!==XZ) {
       document.write("Scalene triangle");
-  
+    }else{
+      document.write("This is not a Triangle");
+    }
 }
