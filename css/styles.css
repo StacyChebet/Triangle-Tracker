@@ -38,11 +38,15 @@ body {
   margin-right: 10%;
 }
 #XY {
-  background-color: mistyrose;
+  background-color: silver;
 }
 #XZ {
-  background-color: mistyrose;
+  background-color: silver;
 }
 #YZ {
-  background-color: mistyrose;
+  background-color: silver;
+}
+.triangles {
+  width: 100%;
+  height: 300px;
 }
