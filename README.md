@@ -2,9 +2,14 @@
 #### Triangle tracker is a web page that determines the type of triangle based on the user's input of the three lengths of the sides of the triangle, 16/9/2018
 #### By STACY CHEBET
 ## Description
-Triangle tracker is an easy-to-use web page that lets the user enter the 3 sides of triangles in 3 separate input fields and after clicking the 'Determine' button, the result is displayed based on the input i.e. whether the triangle is equilateral, isosceles or scalene. Also, 'Not a triangle' is displayed when the input is invalid, e.g. an alphabet
+Triangle tracker is an easy-to-use web page that lets the user enter the 3 sides of triangles in 3 separate input fields and after clicking the 'Determine' button, the result is displayed based on the input i.e.:
+1. Whether the triangle is equilateral by checking whether all the 3 sides of the triangle are equal. For example, when the user inputs 3,3,3 in the 3 input fields, the expected output is 'Equilateral triangle'.
+2. Whether the triangle is isosceles by checking whether any 2 of the 3 sides of the triangle are equal. For example, when the user inputs 3,3,5 in the 3 input fields, the expected output is 'Isosceles triangle'.
+3. Whether the triangle is scalene by determining that the sum of the lengths of any two sides of a triangle is less than or equal to the length of the third side. For example, when the user inputs 2,3,5 in the 3 input fields, the expected output is 'Scalene triangle'.
+4. If there is an invalid entry e.g. a letter, the expected output is "Invalid entry".
 ## Setup/Installation Requirements
 To set up, clone this 'Triangle-Tracker' repository on your local machine.
+Here is the link to the web page:  https://stacychebet.github.io/Triangle-Tracker/
 ## Known Bugs
 This web page has no known bugs.
 ## Technologies Used

@@ -1,15 +1,19 @@
+var sides= [XY, XZ, YZ]
 function triangle() {
   var XY= parseInt(document.getElementById("XY").value);
   var XZ= parseInt(document.getElementById("XZ").value);
   var YZ= parseInt(document.getElementById("YZ").value);
 
+
     if (XY===XZ && XY===YZ) {
       document.write("Equilateral triangle");
-    }else if (XY===YZ && XY!==XZ||XY===XZ && XY!==YZ||XZ===YZ && XZ!=XY) {
+    }else if (XY===YZ && XY!==XZ||XY===XZ && XY!==YZ||XZ===YZ && XZ!==XY) {
       document.write("Isosceles triangle");
-    }else if (XY!=YZ && XY!=XZ) {
+    }else if (XY!==YZ && XY!==XZ) {
       document.write("Scalene triangle");
-    }else{
+    }else if (XY+YZ<=XZ || XY+XZ<=YZ || YZ+XZ<=XY){
       document.write("This is not a Triangle");
+    }else{
+      document.write("Invalid entry")
     }
 }

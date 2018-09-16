@@ -21,7 +21,7 @@ body {
   text-align: center;
   color: dimgray;
 }
-.button {
+#button {
   background-color: mistyrose;
   height: 70px;
   width: 100px;
