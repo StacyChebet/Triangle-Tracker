@@ -1,7 +1,4 @@
-body {
-  background-image: url(/home/stacy/Documents/triangle-tracker/images/bg5.jpg);
-  background-size: cover;
-}
+
 .heading {
   font-size: 100px;
   text-align: center;
@@ -49,4 +46,8 @@ body {
 .triangles {
   width: 100%;
   height: 300px;
+}
+body {
+  background-image: url("../images/bg5.jpg");
+  background-size: cover;
 }
